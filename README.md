@@ -14,7 +14,7 @@ npm install
 npm run dev
 ```
 
-You will see the markdown editor app.
+You will see the markdown editor app in http://127.0.0.1:5173/.
 
 - The left pane is for writing the markdown file,
 - Html viewer is on the Right side pane,
