@@ -1,17 +1,14 @@
-import EditorSVG from '../../public/svg/editor.svg'
+import HtmlViewerSVG from '../../public/svg/editor.svg'
 import PreviewSVG from '../../public/svg/file.svg'
 import SplitterSVG from '../../public/svg/splitter.svg'
 
 export enum EditorPreviewOption {
-    Editor = 'editor',
+    Html = 'html',
     Preview = 'preview',
     Splitter = 'splitter'
 }
 export const EditorPreviewOptions = [
-    {
-        id: EditorPreviewOption.Editor,
-        svg: EditorSVG
-    },
+    
     {
         id: EditorPreviewOption.Preview,
         svg: PreviewSVG
@@ -19,5 +16,9 @@ export const EditorPreviewOptions = [
     {
         id: EditorPreviewOption.Splitter,
         svg: SplitterSVG
+    },
+    {
+        id: EditorPreviewOption.Html,
+        svg: HtmlViewerSVG
     },
 ]
