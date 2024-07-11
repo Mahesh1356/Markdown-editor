@@ -23,4 +23,4 @@ You will see the markdown editor app in http://127.0.0.1:5173/.
 
 ** *
 
-**Note:** *Before seeing editor view, Run backend app. MD to HTML conversion is happened on the backend and is returned as the response*
+**Note:** *Before seeing Html view, Run backend app. MD to HTML conversion is happened on the backend and is returned as the response*

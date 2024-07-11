@@ -1,12 +1,14 @@
 import { EditorPreviewOption, EditorPreviewOptions } from "../constant/options";
 import HtmlSVG from "../../public/svg/editor.svg";
 import axios from "axios";
+
 type PaneSelectorOptions = {
   selected: EditorPreviewOption;
   onSelect: (value: EditorPreviewOption) => void;
   content: string;
   setHtml: React.Dispatch<React.SetStateAction<string>>;
 };
+
 const PaneSelector = (props: PaneSelectorOptions) => {
   const { selected, onSelect, content, setHtml } = props;
   const download = async () => {
